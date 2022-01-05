@@ -1,0 +1,12 @@
+How do computers read code..
+When we write a program it is saved into program file in the hard disk. For example when we write some 
+code in the vscode it gets saved into hard drive. The compiler converts human readable code to machine 
+understandable language. It converts the english letters code to binary code which is series of 0's and 
+1's. For computer the programming code is meaningless sequence of characters. When we pass it to the 
+computer, it first divides into individual tokens called Lexical analysis. Then the tokens are organised 
+into hierarchical structure i.e. parse tree called syntactic analysis. Then we traverse the tree and find 
+out machine code similar to source code. It converts the code into hexadecimal form and then assembly 
+language. In assembly we have block code, instructions to evaluate program and jumps. Compilers convert 
+source code to machine code. It is better if we keep an executable for every single platform. CPU will 
+use binary format and do the processing and it sends back to operating system. It will print the output 
+on the monitor.
