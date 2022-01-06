@@ -4,6 +4,7 @@ import (
 	DataTypePackage "assignments/VarDeclarationProject/DataTypesModule"
 	scope "assignments/VarDeclarationProject/ScopesDeclarationModule"
 	VarDeclaration "assignments/VarDeclarationProject/VarDeclarationModule"
+
 	"fmt"
 )
 
@@ -13,5 +14,5 @@ func main() {
 	scope.SampleFunc()
 	fmt.Println("Global level var", scope.GlobalVar) //for global level scope it is packagename.variablename
 	DataTypePackage.DataType()
-
+	DataTypePackage.ArithmeticOperation()
 }
